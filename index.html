@@ -59,9 +59,7 @@
 		    <li><a href="#c499">ফ্লো চার্ট / Flow Chart  / প্রবাহ চিত্র </a></li>		    
 		    <li><a href="#c2578">C/সি প্রোগ্রামিং এ ডাইনামিক মেমরি এলোকেশন </a></li>		    
 		    <li><a href="#c2594">লিঙ্কড লিস্ট / Linked list সম্পর্কে ধারণা এবং সি প্রোগ্রামিং এ ইমপ্লিমেন্টেশন </a></li>		    
-		    <li><a href="#c3477">প্রয়োজনীয় লিঙ্ক গুলো </a></li>		    
-		    <li><a href="#c3478">এর পরে কি? </a></li>		    
-		    <li><a href="#c3479">কৃতজ্ঞতা </a></li>		    
+		    
 		         
          </ol>
    	</div>
@@ -344,7 +342,7 @@ return 0;
 </code></pre>
 <p style="text-align: justify;">এখানে কি করছি জানেন, আমরা ফাংশানটিকে কল করছি। ফাংশানের ভেতরই বড় ছোট নির্নয় করেছি। ফাংশানের ভেতরই প্রিন্ট করছি। তারপর ফাংশান থেকে বের হয়ে গেছি। মেইন প্রোগ্রামে এসে দেখি আর কোন কাজ বাকি নেই। তাই পোগ্রামটি শেষ হয়েছে।</p>
 <p style="text-align: justify;">Factorial কি তা তো আমরা জানি, তাই না? একটি পূর্ণসংখ্যা ও শূন্য থেকে বড় ও সংখ্যাটি থেকে ছোট সকল পূর্ণসংখ্যার গুনফল হচ্ছে ফ্যাক্টোরিয়াল। n পূর্ণসংখ্যা হয়, তাহলে n এর ফ্যাক্টোরিয়াল প্রকাশ করা হয় এভাবেঃ n! যেমন 5! এর মান হবে 120</p>
-<p><a href="http://tech.jakir.me/wp-content/uploads/2013/05/five-factorial.png" rel="lightbox[369]" title="five factorial"><img class="aligncenter size-full wp-image-1129" alt="five factorial" src="http://tech.jakir.me/wp-content/uploads/2013/05/five-factorial.png" width="248" height="15" /></a></p>
+<p><a href="imagesfive-factorial.png" rel="lightbox[369]" title="five factorial"><img class="aligncenter size-full wp-image-1129" alt="five factorial" src="imagesfive-factorial.png" width="248" height="15" /></a></p>
 <p>একটা পূর্ণসংখ্যার Factorial বের করার একটি প্রোগ্রাম লিখিঃ</p>
 <pre><code class="c">&lt;/pre&gt;
 #include &lt;stdio.h&gt;
@@ -489,7 +487,7 @@ min=input;</p>
 <p>&nbsp;</p>
 <p>ভ্যারিয়েবল গুলো কিভাবে কম্পিউটার মেমরিতে/ র‍্যাম এ স্টোর হয়?</p>
 <p>র‍্যাম এর এক একটি সেল এক একটি বাইট। আর প্রত্যেকটা বাইট এর একটি করে এড্রেস রয়েছে। আর প্রতিটা বাইটে ৮টি করে বিট রয়েছে।</p>
-<p><a href="http://tech.jakir.me/wp-content/uploads/2014/08/memory-cell-in-ram.jpg" rel="lightbox[1214]" title="memory cell in ram"><img class="aligncenter size-full wp-image-1720" src="http://tech.jakir.me/wp-content/uploads/2014/08/memory-cell-in-ram.jpg" alt="memory cell in ram" width="473" height="479" srcset="http://tech.jakir.me/wp-content/uploads/2014/08/memory-cell-in-ram-296x300.jpg 296w, http://tech.jakir.me/wp-content/uploads/2014/08/memory-cell-in-ram.jpg 473w" sizes="(max-width: 473px) 100vw, 473px" /></a></p>
+<p><a href="imagesmemory-cell-in-ram.jpg" rel="lightbox[1214]" title="memory cell in ram"><img class="aligncenter size-full wp-image-1720" src="imagesmemory-cell-in-ram.jpg" alt="memory cell in ram" width="473" height="479" srcset="imagesmemory-cell-in-ram-296x300.jpg 296w, imagesmemory-cell-in-ram.jpg 473w" sizes="(max-width: 473px) 100vw, 473px" /></a></p>
 <p>&nbsp;</p>
 <p>আমরা যখন বলি আমাদের র‍্যাম 8 Giga byte, তখন আমাদের কম্পিউটারের র‍্যামে মোট 8 000 000 000 bytes ডেটা স্টোর করা যাবে, এবং এদের প্রত্যেকের একটি করে এড্রেস রয়েছে। প্রথমটি ০ পরের টি 1, এর পরের টির এড্রেস 2 এভাবে বাড়তে থাকে।  যদিও কম্পিউটার এ এড্রেস গুলো রিপ্রেজেন্ট করে হেক্সাডেসিমেল নাম্বার সিস্টেমে।</p>
 <p>আমরা যখন একটি ভ্যারিয়েবল ডিক্লেয়ার করি আমদের প্রোগ্রামে, এবং যখন আমরা প্রোগ্রামটি এক্সিকিউট/রান করি তখন কম্পিউটার ঐ ভ্যারিয়েবল এর জন্য কিছু মেমরি এলোকেট করে। কতবাইট মেমরি এলোকেট করবে, তা নির্বর করে ঐ ভ্যারিয়েবল এর ডেটা টাইপ এবং কম্পাইলার এর উপর।</p>
