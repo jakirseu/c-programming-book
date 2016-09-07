@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>title</title>
+	<title>বাংলায় সি প্রোগ্রামিং</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
@@ -24,7 +24,7 @@
  
  <div data-role="page" id="chome">
 	<div data-role="header">	
-		
+		<h1>বাংলায় সি প্রোগ্রামিং</h1>
 	</div>
 	<div role="main" class="ui-content">
          <ol data-role="listview"  data-inset="true" data-theme="d">  
@@ -2205,7 +2205,9 @@ int main(void)
     else printf("a is less then or equal to b");
 
 </xmp>
-<p>এখানে যদি <em>a<b</em> হয়, মানে <em>a যদি  b</em> থেকে ছোট হয় তাহলে <em>printf(“a is greater  then b”);</em> <em>statement</em> টি কাজ করবে এবং <em>a is grater then b </em>লেখা টি প্রিন্ট করবে। আর যদি <em>a<b</em> না হয় তাহলে <em>printf(“a is greater  then b”); </em>কাজ করবে না। <em>else </em>অংশে যাবে এবং <em>printf(</em><em>“</em><em>a is less then b”); statement</em> টি কাজ করবে তারপর <em>a is less then b</em> লেখাটি প্রিন্ট করবে।</p>
+এখানে যদি a&lt;b হয়, মানে a যদি  b থেকে ছোট হয় তাহলে printf(“a is greater  then b”); statement টি কাজ করবে এবং a is grater then b লেখা টি প্রিন্ট করবে। আর যদি a&lt;b না হয় তাহলে printf(“a is greater  then b”); কাজ করবে না। else অংশে যাবে এবং printf(“a is less then b”); statement টি কাজ করবে তারপর a is less then b লেখাটি প্রিন্ট করবে।
+ 
+ 
  সম্পুর্ণ প্রোগ্রামঃ<br />
  <xmp>
 #include<stdio.h>
@@ -3876,8 +3878,8 @@ return 0;
 <p>dynamic_var নামে একটি ডাইনামিক ভ্যারিয়েবল নিয়েছি। যার কোন সাইজ আমরা সেট করে দি নাই। আমরা malloc দিয়ে এই dynamic_var এর সাইজ সেট করেছি। if else দিয়ে আমরা dynamic_var চেক করে নিয়েছি। যদি মেমরি এলোকেট করতে না পারে, তাহলে আমাদের লেখা উঠবে &#8220;Couldn&#8217;t able to allocate requested memory&#8221; আর যদি মেমরি এলোকেট করতে পারে, তাহলে strcpy স্ট্রিং ফাংশন ব্যবহার করে dynamic_var এ Dynamically allocated string. এ স্ট্রিংটি এসাইন করবে। এরপর আমরা dynamic_var ভ্যারিয়েবলটি প্রিণ্ট করেছি।</p>
 <p>শেষে free ব্যবহার করে এলোকেটকৃত মেমরি মুক্ত করে দিয়েছি।</p>
 <p>আরেকটা উদাহরণ দিচ্ছিঃ</p>
-<pre>
-<code class="c">
+
+<xmp>
 
 #include <stdio.h>
 #include <string.h>;
