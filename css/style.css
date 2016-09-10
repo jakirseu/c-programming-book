@@ -1,0 +1,15 @@
+.ut-content{
+	padding-bottom:100px;
+	text-align:justify;
+}
+h3{
+	color:#808080;
+}
+img{
+	margin:0 auto;
+	display:block;
+}
+p{
+	line-height: 30px;
+    font-size: 18px;
+}
